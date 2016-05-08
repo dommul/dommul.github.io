@@ -1,0 +1,38 @@
+
+<!--Responsive design workshop by Dominic Mulcahy-->
+
+<html>
+<head>
+<meta name = "viewport" content = "width = device-width, initial-scale=1">
+<style>
+.wrapper {max-width:800px; background:#e4e4e4;overflow:auto; }
+
+section {float:left;
+margin:1.25%;	/* 10 divided ÷ 800 = 0.125*/
+width:62.5%;	/* 500 divided ÷ 800 = 0.625*/
+min-height:30.30303030%; /* 200 divided ÷ 660 = 0.30303030*/
+background: #ff0000;
+}
+
+aside {float:left;
+margin:1.25%;	/* 10 divided ÷ 800 = 0.125*/
+width:32.5%;	/* 260 divided ÷ 800 = 0.325*/
+background: #ffff00;
+min-height:30.30303030%; /* 200 divided ÷ 660 = 0.30303030*/
+}
+
+@media all and (max-width: 320px)
+	{section,aside
+		{float:none;width:auto;}img.post{max-width=100;}
+	}
+
+</style>
+</head>
+
+<body>
+<div class = "wrapper">
+<section>TARGET ÷ CONTEXT = RESULT</section>
+<aside>...</aside>
+</body>
+
+</html>

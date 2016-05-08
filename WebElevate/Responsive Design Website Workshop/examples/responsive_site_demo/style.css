@@ -1,0 +1,244 @@
+
+body	{
+	background: #f1f1f1;
+	min-height:100%;
+	font-family: arial, san-serif; 
+	font-size:100%;
+	margin:0;
+	}
+	
+	
+	
+#wrapper { 
+margin: 2em auto;
+	max-width: 1000px;
+	background:#dd0000;
+	margin:auto;
+	margin-top:0;
+	height:100%;
+	
+	-moz-box-shadow: 0px 0px 35px #333;
+	-webkit-box-shadow: 0px 0px 35px #333;
+	box-shadow: 0px 0px 35px #333;
+	
+
+ 	 
+ 		}
+	
+#header { 
+	width:95%;
+	height:80px;
+	padding:2%;
+	}
+		
+		
+#site-title {
+	margin-right: 20px;
+	padding:1em 0 0 1em;
+	float:left;
+	}
+	
+#site-title a {
+	
+	width:175px;
+	height:53px;
+	display:block;
+	text-decoration: none;
+	background: url('images/trek-suits-logo.png') no-repeat;
+		}
+
+		
+@font-face {
+	font-family: 'Trek';
+	src: url('fonts/Trek.eot'); /* IE9 Compat Modes */
+	src: url('fonts/Trek.eot?iefix') format('embedded-opentype'), 
+	     url('fonts/Trek.woff') format('woff'), /* Modern Browsers */
+	     url('fonts/Trek.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('fonts/Trek.otf')  format('opentype'), /* Safari, Android, iOS */
+	     url('fonts/Trek.svg#Trek') format('svg'); /* Legacy iOS */
+	}			
+				
+		
+
+
+#navmenu {
+	display: block;
+	float: right;
+	margin:.4em 0;
+	width: auto;
+	}
+	
+
+#navmenu ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+#navmenu li {
+	float: left;
+	position: relative;
+
+}
+
+#navmenu a {
+	display: block;
+	line-height: 3.333em;
+	padding: 0 .5em 0 .5em;
+	text-decoration: none;
+	font-family: "Trek";
+	font-size:170%;
+	color:#fff;
+	font-weight:none;
+	
+}
+
+#content {margin:0 2em;height:100%; display:block;}
+
+
+.banner {
+	background: #739ec2; /* Show a solid color for older browsers */
+
+	 background: -moz-linear-gradient(#c0c0c0, #ffffff); 
+		background: -o-linear-gradient(#c0c0c0, #ffffff); 
+		background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#c0c0c0), to(#ffffff)); /* older webkit syntax */
+		background: -webkit-linear-gradient(#c0c0c0, #ffffff); 
+
+	width:100%;
+	height:225px;
+	display:block;
+
+	}
+
+img.bannerimg {clear: both;display: block; margin-left: auto; margin-right: auto;padding:20px; max-width: 90%;
+	height: auto;}
+
+#boxes {display:block;}
+
+.box {width:49%; min-height:200px; margin-right:2%;  border-radius:5px;float:left;display:inline; background:#fff;}
+
+.box2 {width:49%;  min-height:200px; margin-right:0; background:#fff; border-radius:5px; float:right;display:inline;}
+
+#boxes h1 {
+	font-size:140%;
+	color:#333;
+	font-weight:normal;
+	margin-left:20px;
+	}
+	
+#boxes p {
+	font-size:100%;
+	color:#333;
+	font-weight:normal;
+	margin:20px 20px 0 20px;
+	}
+
+
+
+
+#greybox {display:block; min-height:150px;background:#4f4f4f;margin-top:20px;}
+#greybox h2 {font-family: Arial;
+	font-size:100%;
+	color:#999;
+	font-weight:normal;
+	margin-left:20px;
+	}
+	
+#greybox  ul {list-style: none;margin: 0;padding-left:1.3em;
+ }
+#greybox  li {background:url('images/dash.png') no-repeat left; background-position:0px;padding-left: 1em;}
+#greybox  li a {font-size:80%;color:#fff;}
+
+.footbox {width:32%; margin-right:2%;  float:left;display:inline; }
+
+.footboxlast {width:32%;  float:right; display:inline;}
+
+
+#blackbar {display:block; max-height:30px;background:#000;padding: 5px 20px; 5px 20px;}
+
+#blackbar p {font-size:70%;color:#fff;padding:0;text-align:right;}
+#blackbar a {color:#e4e4e4;}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media all and (max-width: 600px) {
+
+#navmenu {
+		display: block;
+		float:left;
+		margin:.5em 0 .5em 0.5em;
+		
+		}
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media all and (max-width: 360px), (max-height: 480px) {
+
+	
+body {background:#dd0000;margin:0;}
+
+	#wrapper {
+	max-width: 100%;
+	background:#dd0000;
+	margin:0;
+	
+	
+ 	 }
+	
+	#header { 
+		
+		padding:0%;
+	}
+	
+	#navmenu {
+		display: block;
+		float:left;
+		margin:.5em 0 .5em 0.7em;
+		
+		}
+		
+	
+	#navmenu ul {
+		
+		list-style: none;
+		margin: 0;
+		padding-left: 0;
+	}
+	#navmenu li {
+		float: left;
+		position: relative;
+		}
+	
+	
+	
+	#navmenu a {
+		display: block;
+		line-height: 3.333em;
+		padding: 0 .5em 0 .5em;
+		text-decoration: none;
+		font-family: "Trek";
+		font-size:130%;
+		color:#fff;
+		font-weight:normal;
+		}
+		
+	#content {margin:0em;display:block;}
+
+		
+	.banner {height:auto;}
+	img.bannerimg {display: block; margin-left: auto; margin-right: auto; width:220px;height:auto;padding:20px;}
+	
+#boxes {padding:5%;}
+
+.box {width:100%;  min-height:200px; border-radius:5px;background:#fff; margin-bottom:20px;}
+
+.box2 {width:100%;  min-height:200px; border-radius:5px;background:#fff; margin-bottom:20px;}
+
+
+#greybox {display:none;}
+
+}
+
+
+
